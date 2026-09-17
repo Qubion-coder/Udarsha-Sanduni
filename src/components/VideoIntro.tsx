@@ -38,11 +38,11 @@ export const VideoIntro: React.FC<VideoIntroProps> = ({ onComplete, onMusicStart
       />
       
       <div className="absolute inset-0 flex flex-col items-center justify-center z-10 p-6 text-center pointer-events-none">
-        <div className="absolute top-[15%] flex flex-col items-center">
-           <h2 className="text-white/90 text-[11px] sm:text-xs font-sans tracking-[0.4em] uppercase mb-6 drop-shadow-md">
-             Wedding Invitation
+        <div className="absolute top-[10%] sm:top-[15%] flex flex-col items-center">
+           <h2 className="text-black sm:text-white/90 text-[11px] sm:text-xs font-sans tracking-[0.4em] uppercase mb-4 sm:mb-6 drop-shadow-[0_2px_4px_rgba(255,255,255,0.5)] sm:drop-shadow-md">
+             Homecoming Invitation
            </h2>
-           <h1 className="text-white text-5xl sm:text-6xl font-names drop-shadow-xl">
+           <h1 className="text-black sm:text-white text-4xl sm:text-6xl font-names drop-shadow-[0_2px_4px_rgba(255,255,255,0.5)] sm:drop-shadow-xl text-center leading-[1.1] sm:leading-normal whitespace-nowrap">
              Udarsha <span className="font-light mx-2">&</span> Sanduni
            </h1>
         </div>
