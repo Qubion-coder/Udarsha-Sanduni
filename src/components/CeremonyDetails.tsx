@@ -48,30 +48,12 @@ export const CeremonyDetails: React.FC<CeremonyDetailsProps> = ({ event = 'both'
                 </div>
                 <div>
                   <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 group-hover:text-brand-plum transition-colors duration-500">
-                    Date: August 13, 2026
+                    Date: October 17, 2026
                   </h4>
                 </div>
               </div>
 
-              {/* Church Ceremony */}
-              <div className="relative group">
-                <div className="absolute top-1/2 -translate-y-1/2 -left-[64px] sm:-left-[74px] w-12 h-12 bg-white rounded-full border border-brand-lavender/40 shadow-lg flex items-center justify-center group-hover:border-brand-plum group-hover:shadow-[0_4px_15px_rgba(176,137,104,0.3)] transition-all duration-500">
-                  <Clock className="w-5 h-5 text-brand-plum group-hover:scale-110 transition-transform duration-500" />
-                </div>
-                <div>
-                  <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 mb-3 group-hover:text-brand-plum transition-colors duration-500">
-                    Church Ceremony
-                  </h4>
-                  <div className="space-y-1.5 text-stone-500/90 font-serif text-base sm:text-lg">
-                    <p>
-                      <span className="font-semibold text-stone-700">Time:</span> 03.30 PM
-                    </p>
-                    <p className="leading-relaxed">
-                      <span className="font-semibold text-stone-700">Venue:</span> St. Mary's Church,<br className="hidden sm:block" /> Negombo
-                    </p>
-                  </div>
-                </div>
-              </div>
+
 
               {/* Wedding Function */}
               <div className="relative group">
@@ -80,14 +62,14 @@ export const CeremonyDetails: React.FC<CeremonyDetailsProps> = ({ event = 'both'
                 </div>
                 <div>
                   <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 mb-3 group-hover:text-brand-plum transition-colors duration-500">
-                    Wedding Function
+                    Homecoming Celebration
                   </h4>
                   <div className="space-y-1.5 text-stone-500/90 font-serif text-base sm:text-lg">
                     <p>
-                      <span className="font-semibold text-stone-700">Time:</span> 06.30 PM Onwards
+                      <span className="font-semibold text-stone-700">Time:</span> 07.00 PM Onwards
                     </p>
                     <p className="leading-relaxed">
-                      <span className="font-semibold text-stone-700">Venue:</span> Centrium Ballroom, Avenra Gardens,<br className="hidden sm:block" /> Negombo
+                      <span className="font-semibold text-stone-700">Venue:</span> King's Court, Cinnamon Lakeside,<br className="hidden sm:block" /> Colombo
                     </p>
                   </div>
                 </div>
